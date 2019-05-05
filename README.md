@@ -1,5 +1,11 @@
 # docker-ssh
-Docker image with docker alpine + openssh client tools
+Minimal Docker image with:
 
-available as `FROM arturh85/docker-ssh` 
+ - alpine latest (auto build on update via docker hub) 
+ - docker client tools 
+ - openssh client tools
+
+available as `FROM arturh85/docker-ssh` from [DockerHub](https://hub.docker.com/r/arturh85/docker-ssh) 
+
+Enjoy.
 
