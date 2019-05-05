@@ -1,4 +1,6 @@
 FROM alpine:latest
+# update packages to latest
+RUN apk update && apk update
 # add docker and ssh client tools
 RUN apk add docker openssh-client
 # clean up big binaries which are not needed for docker client
